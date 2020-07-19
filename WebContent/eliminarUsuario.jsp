@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="container">
-    <form action="eliminacionExitosa.html">
+    <form action="posEliminarUsuario">
         <h1>Eliminar Usuario</h1>
         <div class="input-group">
             <select class="custom-select" id="usuarios" name="usuarios">

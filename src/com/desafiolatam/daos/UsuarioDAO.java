@@ -96,6 +96,8 @@ public class UsuarioDAO implements CrudDao {
 			PreparedStatement ps = conn.prepareStatement(SQL_UPDATE);
 			ps.setString(1, usuarioDTO.getNombre());
 			ps.setString(2, usuarioDTO.getContraseña());
+			ps.setInt(3, usuarioDTO.getIdUsuario());
+			
 			if(ps.execute()) {
 				return true;
 			}
